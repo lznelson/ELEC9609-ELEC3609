@@ -1,0 +1,643 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ti",
+				"title	Tag"
+			],
+			[
+				"url",
+				"urlpatterns"
+			],
+			[
+				"B",
+				"BASE_DIR"
+			],
+			[
+				"c",
+				"context"
+			],
+			[
+				"pro",
+				"profileAdmin"
+			],
+			[
+				"p",
+				"profileAdmin"
+			],
+			[
+				"fanz",
+				"fanzaoAdmin"
+			],
+			[
+				"a",
+				"author"
+			],
+			[
+				"P",
+				"PostAdmin"
+			],
+			[
+				"de",
+				"def	Function"
+			],
+			[
+				"S",
+				"STATUS_CHOICES"
+			],
+			[
+				"D",
+				"DateTimeField"
+			],
+			[
+				"get",
+				"getSubmissionBefore"
+			],
+			[
+				"b_",
+				"b_hour"
+			],
+			[
+				"fet",
+				"fetchone"
+			],
+			[
+				"booking",
+				"bookings_db"
+			],
+			[
+				"eve",
+				"event_information"
+			],
+			[
+				"res",
+				"Results"
+			],
+			[
+				"event",
+				"event_name"
+			],
+			[
+				"offi",
+				"officials_db"
+			],
+			[
+				"result",
+				"results_db"
+			],
+			[
+				"ex",
+				"execute"
+			],
+			[
+				"data",
+				"database_connect"
+			],
+			[
+				"jo",
+				"journey_id"
+			],
+			[
+				"cl",
+				"close"
+			],
+			[
+				"fe",
+				"fetchone"
+			],
+			[
+				"tim",
+				"timecursor"
+			],
+			[
+				"user",
+				"user_type"
+			],
+			[
+				"in",
+				"information"
+			],
+			[
+				"A",
+				"Athlete"
+			],
+			[
+				"mem",
+				"memberno"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/tryTen/urls.py",
+			"settings":
+			{
+				"buffer_size": 1134,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/profiles/templates/about.html",
+			"settings":
+			{
+				"buffer_size": 84,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/profiles/templates/base.html",
+			"settings":
+			{
+				"buffer_size": 8423,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/profiles/models.py",
+			"settings":
+			{
+				"buffer_size": 236,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/andrew/Desktop/tryTen/src",
+		"/Users/andrew/Desktop/tryTen/src/profiles",
+		"/Users/andrew/Desktop/tryTen/src/profiles/migrations",
+		"/Users/andrew/Desktop/tryTen/src/profiles/templates"
+	],
+	"file_history":
+	[
+		"/Users/andrew/Desktop/tryTen/src/profiles/views.py",
+		"/Users/andrew/Desktop/tryTen/static/static/css/main.css",
+		"/Users/andrew/Desktop/tryTen/src/tryTen/settings.py",
+		"/Users/andrew/Desktop/tryTen/src/profiles/templates/base.html",
+		"/Users/andrew/Desktop/tryTen/src/profiles/templates/home.html",
+		"/Users/andrew/Desktop/tryTen/src/tryTen/urls.py",
+		"/Users/andrew/Desktop/tryTen/src/profiles/admin.py",
+		"/Users/andrew/Desktop/tryTen/src/profiles/models.py",
+		"/Users/andrew/Desktop/ass/src/ass/urls.py",
+		"/Users/andrew/Desktop/ass/src/fanzao/admin.py",
+		"/Users/andrew/Desktop/ass/src/fanzao/models.py",
+		"/Users/andrew/Desktop/ass/src/ass/settings.py",
+		"/Users/andrew/Desktop/ass/ass.sublime-project",
+		"/Users/andrew/Desktop/study/INFO2120/ASSIGNMENT2 latest/assignment 2 info2120 sql.sql",
+		"/Users/andrew/Desktop/mysite/blog/models.py",
+		"/Users/andrew/Desktop/study/info 1105/2/week10/HashMap/src/IntegerHashMap.java",
+		"/Users/andrew/Desktop/study/info 1105/2/week10/HashMap/src/Map.java",
+		"/Users/andrew/Desktop/study/info 1105/1/assignment/assignment 2/Assignment2/src/ChainingHashMap.java",
+		"/Users/andrew/Desktop/study/info 1105/1/assignment/assignment 2/Assignment2/src/HashMap.java",
+		"/Users/andrew/Desktop/study/info 1105/2/week6/ArrayHeapChecker/src/ArrayHeapChecker.java",
+		"/Users/andrew/Desktop/study/info 1105/2/week5/Tree/src/AbstractBinaryTree.java",
+		"/Users/andrew/Desktop/study/info 1105/2/week5/Tree/src/LinkedBinaryTree.java",
+		"/Users/andrew/Desktop/study/info 1105/2/week5/Tree/src/BinaryTree.java",
+		"/Users/andrew/Desktop/study/info 1105/2/week4/Palindromes/src/Palindromes.java",
+		"/Users/andrew/Downloads/Week 1 - SimpleCalculator skeleton code/SimpleCalculator.java",
+		"/Users/andrew/Downloads/Week 1 - SimpleCalculator skeleton code/Arithmetic.java",
+		"/Users/andrew/Desktop/python/database.py",
+		"/Users/andrew/Desktop/A-2-3/ApplicationProgramming_Assignment_Brief.pdf",
+		"/Users/andrew/Desktop/A-2-3/olympics_example_dml_postgresql.sql",
+		"/Users/andrew/Desktop/A-2-3/sit-info2120-assignment-3-0009d6d4dbee 下午6.00.26/code/templates/bookings_list.html",
+		"/Users/andrew/Desktop/A-2-3/sit-info2120-assignment-3-0009d6d4dbee 下午6.00.26/code/main.py",
+		"/Users/andrew/Desktop/A-2-3/olympics_ddl.sql",
+		"/Users/andrew/Desktop/A-2-3/sit-info2120-assignment-3-0009d6d4dbee 下午6.00.26/code/routes.py",
+		"/Users/andrew/Desktop/A-2-3/sit-info2120-assignment-3-0009d6d4dbee 下午6.00.26/code/database.py",
+		"/Users/andrew/Desktop/A-2-3/sit-info2120-assignment-3-0009d6d4dbee 下午6.00.26/code/templates/event_detail.html",
+		"/Users/andrew/Desktop/A-2-3/sit-info2120-assignment-3-0009d6d4dbee 下午6.00.26/code/templates/top.html",
+		"/Users/andrew/Desktop/A-2-3/sit-info2120-assignment-3-0009d6d4dbee 下午6.00.26/code/templates/event_list.html",
+		"/Users/andrew/Downloads/olympicsdb_28052017_LATIN1/olympics_example_with_bookings.sql",
+		"/Users/andrew/Downloads/olympicsdb_28052017_LATIN1/olympics_ddl.sql",
+		"/Users/andrew/Desktop/A-2-3/sit-info2120-assignment-3-0009d6d4dbee 下午6.00.26/code/config.ini",
+		"/Users/andrew/Downloads/sit-info2120-week-8-tutorial-python/code/config.ini",
+		"/Users/andrew/Desktop/INFO2120/A-2-3/olympics_ddl.sql",
+		"/Users/andrew/Desktop/INFO2120/A-2-3/olympics_example_dml_postgresql.sql",
+		"/Users/andrew/Desktop/INFO2120/A-2-3/sit-info2120-assignment-3-0009d6d4dbee/code/routes.py",
+		"/Users/andrew/Desktop/INFO2120/A-2-3/sit-info2120-assignment-3-0009d6d4dbee/code/config.ini",
+		"/Users/andrew/Desktop/INFO2120/assignment3/CarShareClient/CarSharing_SampleData_v1.0-2.sql",
+		"/Users/andrew/Downloads/unidbschema.sql",
+		"/Users/andrew/Desktop/INFO2120/A-2-3/olympics_example_dml_oracle.sql",
+		"/Users/andrew/Desktop/INFO2120/A-2-3/sit-info2120-olympicsdb-java-727737bbe008/olympicsdb.properties",
+		"/Users/andrew/Desktop/INFO2120/assignment3/CarShareClient/assignment3db_handout-2.sql",
+		"/Users/andrew/Desktop/INFO2120/A-2-3/sit-info2120-assignment-3-0009d6d4dbee/documentation/documentation.md",
+		"/Users/andrew/Desktop/INFO2120/A-2-3/sit-info2120-assignment-3-0009d6d4dbee/TODO.md",
+		"/Users/andrew/Desktop/INFO2120/A-2-3/sit-info2120-assignment-3-0009d6d4dbee/README.md",
+		"/Users/andrew/Desktop/INFO2120/未命名文件夹/2120-A2.sql",
+		"/Users/andrew/Desktop/INFO2120/未命名文件夹 2/dml.sql",
+		"/Users/andrew/Desktop/INFO2120/未命名文件夹 2/ddl.sql",
+		"/Users/andrew/Desktop/INFO2120/ASSIGNMENT2 latest/assignment 2 info2120 sql.sql",
+		"/Users/andrew/Desktop/INFO2120-2.sql",
+		"/Users/andrew/Desktop/info 1105/2/assignment/assignment2/assignment 2/src/Assignment.java",
+		"/Users/andrew/Desktop/info 1105/1/assignment/assignment 2/Assignment2/src/ChainingHashMap.java",
+		"/Users/andrew/Desktop/info 1105/2/assignment/assignment2/src-7/Assignment.java",
+		"/Users/andrew/Desktop/info 1105/1/assignment/assignment 2/Assignment2/src/SimplePasswordManager.java",
+		"/Users/andrew/Desktop/info 1105/1/assignment/assignment 2/Assignment2/src/HashMap.java",
+		"/Users/andrew/Desktop/info 1105/1/week 8/HashMap/src/SimpleHashMap.java",
+		"/Users/andrew/Downloads/src-7/PrefixMap.java",
+		"/Users/andrew/Downloads/src-7/MalformedKeyException.java",
+		"/Users/andrew/Downloads/src-7/Assignment.java",
+		"/Users/andrew/Desktop/info 1105/2/week10/HashMap/src/IntegerHashMap.java",
+		"/Users/andrew/Desktop/info 1105/2/assignment/assignment 1/Assignment.java",
+		"/Users/andrew/Desktop/info 1105/1/assignment/assignment1/src/MyTree.java",
+		"/Users/andrew/Downloads/src-5/BstSimpleSortedMap.java",
+		"/Users/andrew/Downloads/src-5/SimpleEntry.java",
+		"/Users/andrew/Downloads/src-5/SimpleSortedMap.java",
+		"/Users/andrew/Desktop/info 1105/2/week6/ArrayHeapChecker/src/ArrayHeapChecker.java",
+		"/Users/andrew/Downloads/src-4/Calendar.java",
+		"/Users/andrew/Downloads/src-4/Assignment.java",
+		"/Users/andrew/Downloads/src-4/Appointment.java",
+		"/Users/andrew/Downloads/Assignment 1 - ExampleTests.java.java",
+		"/Users/andrew/Desktop/info 1105/1/week7/BinaryTree/src/BinaryTree.java",
+		"/Users/andrew/Desktop/info 1105/1/week5/FamilyTree/src/SimpleTree.java",
+		"/Users/andrew/Desktop/info 1105/1/assignment/assignment1/src/interfaces/TreeProperties.java",
+		"/Users/andrew/Desktop/info 1105/1/assignment/assignment1/src/simpletree/SimpleTree.java",
+		"/Users/andrew/Desktop/info 1105/1/week5/FamilyTree/src/FamilyTree.java",
+		"/Users/andrew/Downloads/src-3/AbstractBinaryTree.java",
+		"/Users/andrew/Downloads/src-3/AbstractTree.java",
+		"/Users/andrew/Downloads/src-3/BinaryTree.java",
+		"/Users/andrew/Downloads/src-3/LinkedBinaryTree.java",
+		"/Users/andrew/Downloads/src-3/LinkedQueue.java",
+		"/Users/andrew/Downloads/src-3/Position.java",
+		"/Users/andrew/Downloads/src-3/Queue.java",
+		"/Users/andrew/Downloads/src-3/SinglyLinkedList.java",
+		"/Users/andrew/Downloads/src-3/Tree.java",
+		"/Users/andrew/Desktop/info 1105/2/week4/Palindromes/src/Palindromes.java",
+		"/Users/andrew/Desktop/info 1105/1/week4/Queue/src/BasicQueue.java",
+		"/Users/andrew/Desktop/info 1105/1/week4/BasixStack/src/BasicStack.java",
+		"/Users/andrew/Desktop/info 1105/1/week4/Queue/src/Queue.java",
+		"/Users/andrew/Desktop/info 1105/1/week4/Palindromes/src/Palindromes.java",
+		"/Users/andrew/Downloads/src-2/LinkedEnhancedPositionalListTest.java",
+		"/Users/andrew/Downloads/src-2/PositionalList.java",
+		"/Users/andrew/Downloads/src-2/Position.java",
+		"/Users/andrew/Downloads/src-2/LinkedEnhancedPositionalList.java",
+		"/Users/andrew/Downloads/src-2/EnhancedPositionalList.java",
+		"/Users/andrew/Desktop/info 1105/1/assignment/assignment1/src/TreeArithmeticTest.java",
+		"/Users/andrew/Downloads/Week 2 - SearchableArray skeleton code/BinarySearchableArray.java",
+		"/Users/andrew/Downloads/Week 2 - SearchableArray skeleton code/ComparisonCounter.java",
+		"/Users/andrew/Downloads/Week 2 - SearchableArray skeleton code/LinearSearchableArray.java",
+		"/Users/andrew/Downloads/Week 2 - SearchableArray skeleton code/SearchableArray.java",
+		"/Users/andrew/Downloads/Week 1 - SimpleCalculator/SimpleCalculatorTest.java",
+		"/Users/andrew/Desktop/info 1105/1/week4/BasixStack/src/BasicStackTest.java",
+		"/Users/andrew/Desktop/info 1105/1/week4/BasixStack/src/Stack.java",
+		"/Users/andrew/Desktop/info 1105/week4/Queue/src/BasicQueue.java",
+		"/Users/andrew/Desktop/info 1105/week4/Queue/src/Queue.java",
+		"/Users/andrew/Desktop/INFO2120/assignment3/CarShareClient/run.bat",
+		"/Users/andrew/Downloads/assignment3/CarShareClient/database.py",
+		"/Users/andrew/Desktop/sqltest.sql",
+		"/Users/andrew/Downloads/assignment3/CarShareClient/CarSharing_SampleData_v1.0-2.sql",
+		"/Users/andrew/Dropbox/info2120-db-sys-python/CarShareClient/sqltest.sql",
+		"/Users/andrew/Dropbox/info2120-db-sys-python/CarShareClient/sqltest-dev.sql",
+		"/Users/andrew/Desktop/CarShareClient-dev/CarSharing_SampleData_v1.0-2.sql",
+		"/Users/andrew/Desktop/CarShareClient-dev/database.py",
+		"/Users/andrew/Dropbox/info2120-db-sys-python/CarShareClient/assignment3db_handout-2.sql",
+		"/Users/andrew/Dropbox/info2120-db-sys-python/CarShareClient/CarSharing_SampleData_v1.0-2.sql",
+		"/Users/andrew/Desktop/db.sql",
+		"/Users/andrew/Desktop/info 1103/farm/Farm.java",
+		"/Users/andrew/Desktop/CarShareClient-dev/tags",
+		"/Users/andrew/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"home",
+			"css",
+			"AppointmentData",
+			"vehicle",
+			"start_destination",
+			"573",
+			"journey",
+			"get_booking",
+			"place",
+			"A000024883",
+			"journey",
+			"'G'",
+			"A000029896",
+			"athlete",
+			"booking",
+			"medal",
+			"G",
+			"A000039109",
+			"Error with Database",
+			"Error fetching from database",
+			"user_type",
+			"Journey",
+			"row",
+			"print(",
+			"event",
+			"page",
+			"group",
+			"journey",
+			"official",
+			"sabre individual",
+			"role",
+			"event",
+			"result",
+			"fetone",
+			"nbooked",
+			"for_member",
+			"page",
+			"A000038758",
+			"A000030573",
+			"event",
+			"A000042646",
+			"A000025525",
+			"medal",
+			"len",
+			"bool",
+			"SIT",
+			"sit",
+			"member",
+			"me m",
+			"athlete",
+			"time",
+			"code",
+			"root",
+			"list",
+			"Glebe - Glebe Town Hall",
+			"Home to many (happy?) people.",
+			"Member value",
+			"Member",
+			"booking",
+			"todo",
+			"date",
+			"date'",
+			"date",
+			"hour",
+			"duration",
+			"date",
+			"Ice the Cube",
+			"update"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/Users/andrew/Desktop/tryTen/src"
+		},
+		{
+			"path": "/Users/andrew/Desktop/tryTen/static"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/tryTen/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1134,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								639,
+								639
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 28.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/profiles/templates/about.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 84,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								84,
+								84
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/profiles/templates/base.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8423,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3428,
+								3428
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1491.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/profiles/models.py",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 236,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								236,
+								236
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 171.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
