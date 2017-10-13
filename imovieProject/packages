@@ -1,0 +1,31 @@
+
+pip3 install social-auth-app-django
+pip3 install python-social-auth
+
+pip3 install Pillow==4.2.1
+
+pip3 install sorl-thumbnail-12.3
+pip3 install pytz
+
+pip3 install django-embed-video-1.1.2
+
+redis4.0.2
+从 http://redis.io/download 下载最新的 Redis 版本。解压 tar.gz 文件,进入 redis 目录然后编译 Redis
+通过使用以下 make 命令:
+cd redis-3.0.4
+make
+在 Redis 安装完成后允许以下 shell 命令来初始化 Redis 服务:
+src/redis-server
+
+solr-4.10.4
+pip3 install django-haystack-2.6.1
+pip3 install pysolr-3.6.0
+pip3 install haystack-0.42 
+Indexing data:
+python manage.py build_solr_schema
+python manage.py rebuild_index
+
+Start solr service:
+java -jar start.jar
+
+pip3 install Markdown2.6.9
