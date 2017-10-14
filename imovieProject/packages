@@ -29,3 +29,10 @@ Start solr service:
 java -jar start.jar
 
 pip3 install Markdown2.6.9
+
+
+Tips:
+
+When you run this project, you need:
+     1. always run solr service
+     2. always run Redis service
