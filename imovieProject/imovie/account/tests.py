@@ -1,3 +1,10 @@
-from django.test import TestCase
+from django.test import TestCase, Client
 
-# Create your tests here.
+def init_client(user):
+
+	client = Client()
+	client.login(username=user.username, password="lzz")
+	s = client.session
+	s['cur_user_id'] = user.id
+	s.save()
+	return client
