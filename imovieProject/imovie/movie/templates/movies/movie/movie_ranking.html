@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% load thumbnail %}
+{% block title %}Movie list{% endblock %}
+
+
+{% block content %}
+<div class="content">
+	<div class="box_2">
+		<h1 class="m_2">Ranking by views</h1>
+		<div class="col-md-12 grid_3">
+			<div id="movie-list" >
+				{% for movie in movies %}
+					<div class="col-md-2 grid_2">
+					<a href="{{ movie.get_absolute_url }}" class="hvr-shutter-out-horizontal">
+						{% thumbnail movie.poster "240x310" crop="100%" as im %}
+							<img src="{{ im.url }}" class="img-responsive" alt=""/>
+						{% endthumbnail %}
+					</a>
+					</div>
+				{% endfor %}
+			</div>
+		</div>
+		<div><br><br><h1>&nbsp;&nbsp;</h1></div>
+		<h1 class="m_2">Ranking by ranks</h1>
+		<div class="col-md-12 grid_3">
+			<div id="movie-list" >
+				{% for movie in movies_by_rank %}
+				<div class="col-md-2 grid_2">
+				<a href="{{ movie.get_absolute_url }}" class="hvr-shutter-out-horizontal">
+					{% thumbnail movie.poster "240x310" crop="100%" as im %}
+						<img src="{{ im.url }}" class="img-responsive" alt=""/>
+				{% endthumbnail %}
+				</a>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+	<div class="clearfix"> </div>
+</div>
+</div>
+</div>
+{% endblock %}
