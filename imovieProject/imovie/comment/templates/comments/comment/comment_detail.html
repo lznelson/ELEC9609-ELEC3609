@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% load thumbnail %}
+{% block title %}Reivew{% endblock %}
+
+{% block content %}
+<div class="content">
+<h1 class="m_2">{{ comment.title }}</h1><br><br>
+<h1 class="m_2">{{comment.movie }} / wirted by  <a href="{{ comment.get_author_url.profile.get_absolute_url }}" id="author">
+			  {{ comment.author }}</a></h1>
+	<div class="post">
+		<h1 class="m_2">
+		</h1><br><br>
+		{{ comment.body|linebreaks}}<br><br>
+	</div>
+
+	<h3>What do you think?</h3>
+		<form id="anothercomment_form" action="." method="post">
+			<div class="text">
+				<textarea type="text" value="Comment:" name="body" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Comment:';}">Comment:</textarea>
+			</div>
+			<br>
+			{% csrf_token %}
+			<div class="form-submit1">
+			   <input name="submit" type="submit" id="submit" value="Submit Your Message"><br>
+			</div>
+		</form>
+		<br><br>
+		<div class="single">
+		<h3>What other people thought...</h3>
+		</div>
+		<ul class="single_list">
+			{% for anothercomment in anothercomments %}	
+			<li>
+				<div class="preview"><a href="#">
+					{% thumbnail anothercomment.get_author_url.profile.photo "30" as im %}
+					<img class="img-circle" src="{{ im.url }}" class="img-responsive" alt=""></a>
+					{% endthumbnail %}
+				</div>
+				<div class="data">
+					<div class="title"><a href="{{ shortcomment.get_author_url.profile.get_absolute_url }}" id="author">{{ anothercomments.author }}
+					<p>{{ anothercomment.body}}</p><br>
+				</div>
+				<div class="clearfix"></div>
+			</li>
+			{% empty %}
+				<p>There are no comment yet.</p>
+			{% endfor %}
+		</ul>
+		<div class="clearfix"></div>
+</div>
+</div>	
+{% endblock %}
