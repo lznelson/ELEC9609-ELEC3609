@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% load thumbnail %}
+{% block title %}{{ movie.name }}{% endblock %}
+
+{% block content %}
+<div class="content">
+	{% if new_comment %}
+		<h1 class="m_2">Your review has been added.</h1><br><br><br>
+	{% else %}
+	<h1 class="m_2" style="margin-left:3%">Add a new review</h1><br><br><br>
+	<div>
+		<form id="comment_form" action="." method="post">
+			<div class="to">
+			<input type="text" class="text" value="title" name="title" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'title';}" style="margin-left:3%">
+			</div>
+			<div class="review">
+			    <textarea type="review" value="Review:" name="body" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Review:';}" style="margin-left:3%">Review:</textarea>
+			</div>
+			{% csrf_token %}
+			<div class="form-submit1" style="margin-left:3%">
+			   <input name="submit" type="submit" id="submit" value="Submit Your Review"><br>
+			</div>
+		</form>
+	</div>
+	{% endif %}
+</div>
+</div>
+{% endblock %}

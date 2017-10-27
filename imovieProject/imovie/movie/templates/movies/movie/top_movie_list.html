@@ -1,0 +1,18 @@
+{% load thumbnail %}
+
+<div class="slider">
+	<div class="callbacks_container">
+		<ul class="rslides" id="slider">
+			{% for top_movie in top_movies%}
+			<li>
+				{% thumbnail top_movie.poster "1140x457" crop="45%" as im %}
+					<img src="{{ im.url }}" class="img-responsive" alt=""/>
+				{% endthumbnail %}
+				<div class="button">
+					<a href="{{ top_movie.get_absolute_url }}" class="hvr-shutter-out-horizontal">View</a>
+				</div>
+			</li>			
+			{% endfor %}
+		</ul>
+	</div>
+</div>
