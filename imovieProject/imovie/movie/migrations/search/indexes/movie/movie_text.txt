@@ -1,0 +1,4 @@
+{{ object.name }}
+{{ object.nation }}
+{{ object.star }}
+{{ object.category }}

@@ -1,0 +1,14 @@
+
+
+{% for comment in comments %}	
+<li>
+	<div class="data">
+		<div class="title">
+			<a href="{{ comment.get_absolute_url }}"">{{ comment.title }} /</a>
+			{{comment.movie }} / writed by {{ comment.author }}
+		</div>
+		<p>{{ comment.body|truncatewords:100 }}</p>
+	</div>
+	<div class="clearfix"> </div>
+</li>
+{% endfor %}

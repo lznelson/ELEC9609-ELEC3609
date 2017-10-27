@@ -1,0 +1,10 @@
+
+<h1>My Review</h1>
+{% for comment in comments %}
+	<div class ="comment-list">
+	<h2><a href="{{ comment.get_absolute_url }}"">{{ comment.title }}</a></h2>
+		<h3>
+		<a href="{{ comment.get_movie_url.get_absolute_url }}">{{ comment.movie }}</a></h3>
+		{{ comment.body|truncatewords:100 }}
+	</div>
+{% endfor %}

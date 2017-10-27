@@ -1,0 +1,159 @@
+{% extends "base.html" %}
+{% load thumbnail %}
+{% load embed_video_tags %}
+
+{% block title %}{{ movie.name }}{% endblock %}
+
+{% block content %}
+	<div class="content">
+	<div class="movie_top">
+		<div class="col-md-9 movie_box">
+			<div class="grid images_3_of_2">
+				<div class="movie_image">
+					<span class="movie_rating">{{ movie.rank|floatformat:2 }}</span>
+					{% thumbnail movie.poster "400" as im %}
+					<img src="{{ im.url }}" class="img-responsive" alt=""/>
+					{% endthumbnail %}
+				</div>
+				<div class="movie_rate">
+					<div class="rating_desc"><p>Your Vote :</p></div>
+					<form action="" class="sky-form">
+					<fieldset>					
+					<section>
+						<div class="rating">
+							<input type="radio" name="stars-rating" id="stars-rating-5">
+							<label for="stars-rating-5"><i class="icon-star"></i></label>
+							<input type="radio" name="stars-rating" id="stars-rating-4">
+							<label for="stars-rating-4"><i class="icon-star"></i></label>
+							<input type="radio" name="stars-rating" id="stars-rating-3">
+							<label for="stars-rating-3"><i class="icon-star"></i></label>
+							<input type="radio" name="stars-rating" id="stars-rating-2">
+							<label for="stars-rating-2"><i class="icon-star"></i></label>
+							<input type="radio" name="stars-rating" id="stars-rating-1">
+							<label for="stars-rating-1"><i class="icon-star"></i></label>
+						</div>
+					</section>
+					</fieldset>
+					</form>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="title"><a href= "{{ movie.get_comment_url }}" >write a review</a></div>
+			</div>
+			<div class="col-md-3" style="float: right;">
+			{% with total_likes=movie.users_like.count users_like=movie.users_like.all %}
+				<div id="user_movie_like" >
+						<a href="#" data-id="{{ movie.id }}" data-action="{% if request.user in users_like %}un{% endif %}like" class="like button">
+							{% if request.user not in users_like %}
+								Like
+							{% else %}
+								Unlike
+							{% endif %}
+						</a>
+				</div>
+			{% endwith %}
+			</div>
+
+			<div class="desc1 span_3_of_2">
+				<p class="movie_option"><strong>Country: </strong><a href="#">{{ movie.nation }}</a></p>
+				<p class="movie_option"><strong>Year: </strong>{{movie.year}}</p>
+				<p class="movie_option"><strong>Category: </strong><a href="#">{{ movie.category }}</a></p>
+				<p class="movie_option"><strong>Director: </strong>{{ movie.director }}</p>
+				<p class="movie_option"><strong>Scriptwriter: </strong>{{ movie.scriptwriter }}</p>
+				<p class="movie_option"><strong>Actors: </strong>{{movie.star}}</p>
+				<p class="movie_option"><strong>Language: </strong>{{movie.language}}</p>
+				<p class="movie_option"><strong>Length: </strong>{{movie.length}}</p>
+
+				{% with total_likes=movie.users_like.count users_like=movie.users_like.all %}
+				<ul class="single_list">
+					<li><i class="icon5"></i>
+				<span class="count">
+					<span class="total">
+				<p>{{ total_likes }}</p></li></span></span>
+				</ul>
+				{% endwith %}
+				<p class="movie_option"><strong>View:</strong> {{ total_views }}</p></li>
+			</div>
+			
+			<div class="clearfix"> </div>
+			<p class="m_4">{{movie.description}}</p>
+			
+			<div id="trailer">
+			{% video movie.video as my_video %}
+				{% video my_video 'small' %}
+			{% endvideo %}
+			</div>
+			<br>
+
+			<h3>Add a new shortcomment</h3>
+			<form id="shortcomment_form" action="." method="post">
+				<div class="to">
+				<input type="number" class="text" value="Rank" name="rank" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Rank';}">
+				</div>
+
+				<div class="text">
+					<textarea type="text" value="Comment:" name="body" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Comment:';}">Comment:</textarea>
+				</div>
+				{% csrf_token %}
+				<div class="form-submit1">
+				   <input name="submit" type="submit" id="submit" value="Submit Your Message"><br>
+				</div>
+			</form>
+
+			<div class="single">
+			{% with shortcomments.count as total_shortcomments %}
+				<h1>
+					{{ total_shortcomments }} shortcomment{{ total_shortcomments|pluralize }}
+				</h1>
+			{% endwith %}
+			</div>
+			<ul class="single_list">
+				{% for shortcomment in shortcomments %}	
+				<li>
+					<div class="preview"><a href="#">
+						{% thumbnail shortcomment.get_author_url.profile.photo "30" as im %}
+						<img class="img-circle" src="{{ im.url }}" class="img-responsive" alt=""></a>
+						{% endthumbnail %}
+					</div>
+					<div class="data">
+						<div class="title"><a href="{{ shortcomment.get_author_url.profile.get_absolute_url }}" id="author">{{ shortcomment.author }}</a>  /  {{ shortcomment.created.month }} {{ shortcomment.created.day }}, {{ shortcomment.created.year }}  /  {{shortcomment.rank|floatformat:1 }} <a href="#">reply</a></div>
+						<p>{{ shortcomment.body}}</p>
+					</div>
+					<div class="clearfix"></div>
+				</li>
+				{% empty %}
+					<p>There are no shortcomments yet.</p>
+				{% endfor %}
+			</ul>
+		</div>			  
+		<div class="clearfix"> </div>
+	</div>
+	</div>
+</div>		
+{% endblock %}
+
+
+{% block domready %}
+	$('a.like').click(function(e){
+		e.preventDefault();
+		$.post('{% url "movies:movie_like" %}',
+			{
+				id: $(this).data('id'),
+				action: $(this).data('action')
+			},
+			function(data){
+				if (data['status'] == 'ok')
+				{
+					var previous_action = $('a.like').data('action');
+
+					// toggle data-action
+					$('a.like').data('action', previous_action == 'like' ? 'unlike' : 'like');
+					// toggle link text
+					$('a.like').text(previous_action == 'like' ? 'Unlike' : 'Like');
+
+					// update total likes
+					var previous_likes = parseInt($('span.count .total').text());
+					$('span.count .total').text(previous_action == 'like' ? previous_likes + 1 : previous_likes - 1);
+				}
+		});
+	});
+{% endblock %}

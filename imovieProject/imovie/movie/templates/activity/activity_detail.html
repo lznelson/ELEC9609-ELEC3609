@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% load thumbnail %}
+{% block title %}Activity detail{% endblock %}
+
+{% block content %}
+<div class="content">
+	<div style="margin-left: 15% ; width: 70%">
+		<h2 class="m_2">{{activity.title}}</h2>
+		<p style="font-size:20px">When: Form&nbsp;<strong>{{activity.date}}</strong> To&nbsp;<strong>{{activity.todate}}</strong></p>
+		<br>
+		{{activity.body|linebreaks}}
+		<br>
+	</div>
+</div>
+<div class="clearfix"> </div>
+</div>
+{% endblock %}
