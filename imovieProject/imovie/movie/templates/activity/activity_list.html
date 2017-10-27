@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% load thumbnail %}
+{% block title %}Activity list{% endblock %}
+
+
+{% block content %}
+<div class="content">
+	<h1 class="m_2">Movie activity</h1><br><br>
+	<div clas="box_1">
+		{% for activity in activities %}
+		<div class="col-md-6 grid_2">
+			<h4 class="m_2">{{activity.title}}</h4>
+			<br>
+			{{activity.body|truncatewords:80}}
+			<br>
+			<div class="button1" style="float: right;">
+				<a href="{{ activity.get_absolute_url }}" class="hvr-shutter-out-horizontal">More</a>
+			</div>
+			<br>
+		</div>
+		{% endfor %}
+	</div>
+	<div class="clearfix"> </div>
+</div>
+<div class="content">
+	<br><br><br><br>
+</div>
+</div>
+{% endblock %}

@@ -141,3 +141,4 @@ def activity_detail(request,id,slug):
 				{"activity":activity})
 
 
+

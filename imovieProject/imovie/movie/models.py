@@ -23,3 +23,4 @@ class Activity(models.Model):
 	def get_absolute_url(self):
 		return reverse('movies:activity_detail',
 						args=[self.id,self.slug])
+

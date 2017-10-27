@@ -11,4 +11,7 @@ urlpatterns = [
 	url(r'^activity-detail/(?P<id>\d+)/(?P<slug>[-\w]+)/$', views.activity_detail, 
 		name='activity_detail'),
 
+
+
 ]
+
