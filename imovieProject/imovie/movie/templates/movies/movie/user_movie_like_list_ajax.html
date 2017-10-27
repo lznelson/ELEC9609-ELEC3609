@@ -1,0 +1,17 @@
+{% load thumbnail %}
+
+<h1>My movie</h1>
+{% for movie in movies %}
+<span style="float: left;width: 30%;">
+	<div class ="movie-list">
+		<a href="{{ movie.get_absolute_url }}">
+			{% thumbnail movie.poster "100" as im %}
+				<img src="{{ im.url }}">
+			{% endthumbnail %}
+		</a>
+		<div class="info">
+			<a href="{{ movie.get_absolute_url }}" class="name">{{ movie.name }}</a>
+		</div>
+	</div>
+</span>>
+{% endfor %}
