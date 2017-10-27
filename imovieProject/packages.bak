@@ -1,4 +1,4 @@
-﻿First, you need download MySQL database server
+﻿
 Install package:
 pip3 install social-auth-app-django
 pip3 install python-social-auth
