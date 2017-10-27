@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block title %}Edit your account{% endblock %}
+
+{% block content %}
+<div class="clearfix"> </div>
+</div>
+
+<div class="content">
+<div class="register-top-grid">
+
+	<h3>Edit your account</h3>
+	<form action="." method="post" enctype="multipart/form-data">
+	<div class="to">
+		{{ user_form.as_p }}
+		{{ profile_form.as_p }}
+		{% csrf_token %}
+		<div class="form-submit1" style="float: left;">
+		   <input name="submit" type="submit" id="submit" value="Save changes"><br>
+		</div>
+	</form>
+
+	</div>
+	</div>
+<div class="clearfix"> </div>
+</div>
+
+{% endblock %}
