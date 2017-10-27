@@ -1,0 +1,11 @@
+{% load thumbnail %}
+
+{% for movie in movies %}
+	<div class="col-md-2 grid_2">
+	<a href="{{ movie.get_absolute_url }}" class="hvr-shutter-out-horizontal">
+		{% thumbnail movie.poster "240x310" crop="100%" as im %}
+			<img src="{{ im.url }}" class="img-responsive" alt=""/>
+		{% endthumbnail %}
+	</a>
+	</div>
+{% endfor %}
