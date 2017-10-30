@@ -1,4 +1,4 @@
-# COMP9609
+# USYD ELEC9609/ELEC3609
 
 Team Number: 36
 
