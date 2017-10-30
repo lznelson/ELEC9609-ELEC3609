@@ -4,15 +4,15 @@ Team Number: 36
 
 Team Members:
 
-JIAHUI CHEN SID： 450554021 github name: JichenZhao39
+JIAHUI CHEN 450554021 github username: JichenZhao39
 
-ZHE LIU SID： 450182813 github name: lznelson
+ZHE LIU 450182813 github username: lznelson
 
-XUAN WEI SID： 460175351 github name: FrankieWei727
+XUAN WEI 460175351 github username: FrankieWei727
 
-MENG YUAN SID： 470241734 github name: 00ox-xo00
+MENG YUAN 470241734 github username: 00ox-xo00
 
-JICHEN ZHAO SID： 460225645 github name: JichenZhao39
+JICHEN ZHAO 460225645 github username: JichenZhao39
 
 Project introduction：
 
