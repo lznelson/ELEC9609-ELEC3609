@@ -4,7 +4,7 @@ Team Number: 36
 
 Team Members:
 
-JIAHUI CHEN 450554021 github username: JichenZhao39
+JIAHUI CHEN 450554021 github username: Jche8218
 
 ZHE LIU 450182813 github username: lznelson
 
